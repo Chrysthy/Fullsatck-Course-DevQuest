@@ -1,0 +1,17 @@
+.produto {
+    background-color: aqua;
+
+}
+
+.produto span {
+    font-size: 24px;
+    color: orange;
+
+}
+
+
+/* ou pode utilizar desse jeito, mas o de cima é melhor.
+.destaque {
+    font-size: 24px;
+    color: orange;
+} */

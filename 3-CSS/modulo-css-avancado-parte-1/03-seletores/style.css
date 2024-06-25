@@ -1,0 +1,52 @@
+h1 {
+    color: green;
+    text-decoration: underline; 
+}
+
+.paragrafo {
+    font-size: 20px ;
+}
+
+#menu {
+    margin-left: 100px;
+}
+
+* {
+    padding: 0;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo.verde {
+    color: green;
+}
+
+/* p, span {
+    font-size: 10px;
+} */
+
+.sobre .texto {
+    background-color:#f5efef;
+}
+
+div > p {
+   color: aqua;
+}
+
+div + p {
+    background-color: greenyellow;
+}
+
+a[target=_blank] {
+    color: gold;
+}
+
+a[href="google.com"] {
+    color: palevioletred;
+}

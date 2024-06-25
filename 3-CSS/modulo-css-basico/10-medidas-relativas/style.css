@@ -1,0 +1,25 @@
+html {
+    background-color: #ccc;
+    font-size: 32px;
+    
+}
+
+/* 1 em = 16 pixels da tela (por padrão). Se você colocar 3em, elevai multiplicar.3 x 16= 48. A fonte agora é de 48.*/
+
+body {
+    background-color: blueviolet;
+    width: 50%;
+    font-size: 3rem;
+}
+
+.pai {
+    background-color: #ea80fc;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.filha {
+    background-color: #1de9b6;
+    width: 50%;
+    font-size: 0.5rem;
+}

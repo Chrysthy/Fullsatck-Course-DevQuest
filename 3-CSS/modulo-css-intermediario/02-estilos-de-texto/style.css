@@ -1,0 +1,95 @@
+/* ---------TEXT ALIGN---------- */
+
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify;
+}
+
+
+
+/* ---------Text Transform---------- */
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+
+
+/* --------------Text Decoration--------- */
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+
+
+/* --------------Letter Spacing------------- */
+
+.altura-entre-linhas {
+    line-height: 40px ;
+    letter-spacing: 2px;
+}
+
+
+/* --------------Sombra no Texto---------- */
+
+.sombra-de-texto {
+    text-shadow: 10px 10px 1px #808080;
+}
+
+
+/* ------------GERAL-------------- */
+
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: #d1c4e9;
+
+}
+
+.fundo-transform {
+    padding: 20px;
+    background-color: #c8e6c9;
+
+}
+
+.fundo-decoration {
+    padding: 20px;
+    background-color: #fff9c4;
+
+}
+
+.fundo {
+    padding: 20px;
+    background-color: #ccc;
+
+}
+
+html {
+    font: size 24px; ;
+}

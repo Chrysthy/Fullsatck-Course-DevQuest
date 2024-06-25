@@ -1,0 +1,59 @@
+.fa-whatsapp {
+    color: rgb(32, 185, 98);
+    font-size: 100px;
+}
+
+.fa-instagram {
+    color: rgb(231, 60, 205);
+    font-size: 100px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 100px;
+}
+
+.fa-youtube {
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+}
+
+.fa-map-marker-alt {
+    color: greenyellow;
+    font-size: 100px;
+}
+
+.fa-tiktok {
+    color: rgb(0, 64, 255);
+    font-size: 100px;
+}
+
+.fa-facebook:hover {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.fa-instagram:hover {
+    background-color: black;
+   
+}
+
+.fa-whatsapp:hover {
+    background-color: black;
+    
+}
+
+.fa-youtube:hover {
+    background-color: black;
+    
+}
+
+.fa-map-marker-alt:hover {
+    background-color: black;
+    
+}
+
+.fa-tiktok:hover {
+    background-color: black;
+    
+}

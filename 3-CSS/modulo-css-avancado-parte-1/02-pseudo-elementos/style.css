@@ -1,0 +1,43 @@
+/* seletor::pseudo-elemento {
+    propriedade: valor;
+} */
+
+.first-letter::first-letter {
+    color: blueviolet;
+    font-size: 50px;
+    font-family: cursive, sans-serif;
+}
+
+.first-line:first-line {
+    color: aquamarine;
+}
+
+.first-line::first-letter {
+    color: orangered;
+}
+
+li::marker {
+    color: greenyellow;
+    font-size: 50px;
+}
+
+/* h2::before {
+    content: url(image/favicon.ico);
+} */
+
+/* h2::before {
+    content: "Texto 123 - ";
+} */
+
+.before::before {
+    content: "";
+    background: url(image/favicon.ico) center center no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.after::after {
+    content: url(image/favicon.ico);
+   
+}

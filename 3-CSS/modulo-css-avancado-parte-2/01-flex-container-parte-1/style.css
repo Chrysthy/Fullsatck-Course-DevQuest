@@ -1,0 +1,24 @@
+.container.direction {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container.wrap {
+    display: flex;
+    flex-wrap: wrap-reverse;
+     
+}
+
+.container.flow {
+    display: flex;
+    flex-flow: column-reverse;
+ 
+}
+
+.container div {
+    background-color: plum;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,27 @@
+.container>div {
+    border: 1px solid #000;
+    color: #fff;
+    font-size: 20px;
+    background-color: #dda0dd;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, 150px) ; 
+   
+} */
+
+/* .container {
+    display: grid;
+    grid-template: 150px / auto auto;
+   
+} */
+
+.container {
+    display: grid;
+    grid-template: repeat(1,150px) / repeat(2,auto);
+    gap: 50px 20px;
+      
+}
+

@@ -1,0 +1,68 @@
+.flex-0 {
+    /* flex-grow, flex-shrink e flex-basis */
+    flex: 0;
+  
+}
+
+.flex-1 {
+    flex: 0 1 100px;
+}
+
+.flex {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+/* Para responsividade */
+.wrap {
+    flex-wrap: wrap;
+}
+
+.item.item2 {
+    order: 1;
+}
+
+.item.item3 {
+    order: 2;
+}
+
+/* .align-self .item5 {
+    align-self: auto;
+} */
+
+.container.align-self.start .item{
+    flex: 1;
+}
+
+.align-self.start .item3 {
+    align-self: flex-start;
+    
+}
+
+.container.align-self.end .item{
+    flex: 1;
+}
+
+.align-self.end .item3 {
+    align-self: flex-end;
+    
+}
+
+.container.align-self.center .item{
+    flex: 1;
+}
+
+.align-self.center .item3 {
+    align-self: center;
+    
+}
+
+.container.align-self.stretch .item{
+    flex: 1;
+}
+
+.align-self.stretch .item3 {
+    align-self: stretch;
+    
+}

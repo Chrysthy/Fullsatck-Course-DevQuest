@@ -1,0 +1,33 @@
+:root {
+    --cor-padrao: plum;
+    --tamanho-da-fonte-padrao: 20px;
+    --decoracao-texto: underline; 
+}
+
+h2 {
+    --cor-padrao: rgb(95, 178, 231);
+    --tamanho-da-fonte-padrao: 30px;
+    --decoracao-texto: overline underline;
+
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-da-fonte-padrao);
+    text-decoration: var(--decoracao-texto);
+}
+
+h3 {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-da-fonte-padrao);
+    text-decoration: var(--decoracao-texto);
+}
+
+p {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-da-fonte-padrao);  
+}
+
+span {
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-da-fonte-padrao);
+}
+
+

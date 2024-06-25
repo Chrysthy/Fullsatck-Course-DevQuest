@@ -1,0 +1,47 @@
+/* seltor:pseudo-classe {
+    propriedade:valor
+} */
+
+p:first-child {
+    color: blue;
+}
+
+p:last-child {
+    color: green;
+}
+
+p:not(padrao) {
+    color: yellow;
+}
+
+/* li:nth-child(odd) {
+    color: palevioletred;
+}
+
+li:nth-child(even){
+    color: olive;
+} */
+
+/* li:nth-child(3n) {
+    color: aqua;
+}
+
+li:nth-child(2n){
+    color: orangered;
+} */
+
+/* li:nth-child(5) {
+    color: aquamarine;
+} */
+
+li:nth-child(n+3):nth-child(-n+7) {
+    color: red;
+}
+
+li:nth-last-child(1) {
+    color: turquoise;
+}
+
+p:only-child {
+    color: orange;
+}

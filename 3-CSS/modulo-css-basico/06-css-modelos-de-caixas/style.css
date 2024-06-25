@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+
+
+p {
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    border: solid 10px green;
+
+}
