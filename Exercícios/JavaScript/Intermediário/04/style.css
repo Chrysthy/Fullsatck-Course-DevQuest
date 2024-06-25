@@ -1,0 +1,20 @@
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.campo-preenchido {
+    border: 1px solid #00ff00;
+}
+
+marquee {
+    background-color: #00ff00;
+    font-size: 20px;
+    font-weight: bold;
+
+    border: 5px double orange;
+    padding: 10px;
+}

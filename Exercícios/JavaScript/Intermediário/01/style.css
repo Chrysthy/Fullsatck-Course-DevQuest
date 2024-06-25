@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
+
+.azul {
+    background-color: #0015ff;
+
+}
+
+.verde {
+    background-color: #00ff00;
+
+}
+
+.amarelo {
+    background-color: #ffff00;
+}
+
+.rosa {
+    background-color: plum;
+}
+
+button {
+    margin: 15px 0 0 0;
+    cursor: pointer;
+}
