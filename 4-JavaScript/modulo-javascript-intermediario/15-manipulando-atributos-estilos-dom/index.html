@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Atributos e Estilos no DOM</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <style>
+        .fonte-grande {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style> -->
+
+</head>
+
+<body>
+
+    <h1>Manipulando Estilos no DOM</h1>
+
+    <button onclick="alterarCorDeFundoPrimeiroPost()"> Alterar cor de fundo do primeiro post</button>
+
+    <br>
+    <br>
+
+    <button onclick="aumentarFonteSegundoPost()"> Aumentar fonte</button>
+
+    <article class="post">
+
+        <p> <strong>Chrystine Martins</strong> <span>@chrysthy - 10 min</span> </p>
+
+        <p class="texto-post">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, ullam. Quam repellat accusamus eligendi
+            at, excepturi aspernatur voluptas culpa, amet eius velit voluptate maxime beatae perferendis? Voluptates
+            perferendis itaque ex.
+        </p>
+
+        <br>
+
+    </article>
+
+    <article class="post">
+
+        <p> <strong>Chrystine Martins</strong> <span>@chrysthy - 10 min</span> </p>
+
+        <p class="texto-post">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, ullam. Quam repellat accusamus eligendi
+            at, excepturi aspernatur voluptas culpa, amet eius velit voluptate maxime beatae perferendis? Voluptates
+            perferendis itaque ex.
+        </p>
+
+        <br>
+
+    </article>
+
+    <h2>Manipulando Atributos no DOM</h2>
+
+    <button onclick="marcarRadio('M')"> Marcar Radio Masculino </button>
+
+    <button onclick="marcarRadio('F')"> Marcar Radio Feminino </button>
+
+    <br>
+    <br>
+
+    Masculino <input type="radio" name="genero" id="genero-masculino">
+
+    Feminino <input type="radio" name="genero" id="genero-feminino">
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
