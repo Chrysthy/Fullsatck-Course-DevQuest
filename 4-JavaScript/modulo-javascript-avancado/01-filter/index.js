@@ -15,28 +15,7 @@ let pessoas = [
 
 
 //------------------------------------------------------------------
-//abreviada.1
-
-// let pessoasComIdadeDe4Anos = pessoas.filter((pessoa) => {
-//     return pessoa.idade === 4
-// })
-
-// console.log(pessoasComIdadeDe4Anos);
-
-
-//------------------------------------------------------------------
-//abreviada.2
+//abreviada
 
 let pessoasComIdadeDe4Anos = pessoas.filter((pessoa) => pessoa.idade === 4)
 
-//----------------------------------------------------------------
-// let pessoasComIdadeDe4Anos = []
-
-// for (let i = 0; i < pessoas.length; i++) {
-
-//     if (pessoas[i].idade === 4) {
-//         pessoasComIdadeDe4Anos.push(pessoas[i])
-//     }
-// }
-
-// console.log(pessoasComIdadeDe4Anos);
