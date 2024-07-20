@@ -1,14 +1,18 @@
 let ordens = [
 
     { cliente: 'Noob', tipo: 'compra', quantidade: 56, ativo: 'NFLX34' },
-    { cliente: 'Leon', tipo: 'compra', quantidade: 56, ativo: 'NFLX34' },
-    { cliente: 'Collin', tipo: 'compra', quantidade: 56, ativo: 'NFLX34' }
+    { cliente: 'Leon', tipo: 'compra', quantidade: 76, ativo: 'NFLX34' },
+    { cliente: 'Collin', tipo: 'compra', quantidade: 21, ativo: 'NFLX34' }
 ]
 
-let quantidadeDeOrdens = 0
+// let quantidadeDeOrdens = 0
 
-for (let i = 0; i < ordens.length; i++){
-    quantidadeDeOrdens += ordens[i]. quantidade
-}
+// for (let i = 0; i < ordens.length; i++){
+//     quantidadeDeOrdens += ordens[i]. quantidade
+// }
+
+let quantidadeDeOrdens = ordens.reduce(function (quantidadeDeOrdens, oredem) {
+
+}, 0)
 
 console.log(quantidadeDeOrdens);
