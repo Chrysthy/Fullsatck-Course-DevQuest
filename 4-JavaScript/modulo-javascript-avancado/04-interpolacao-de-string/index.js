@@ -18,5 +18,5 @@ const imprimirInformacoesPessoas = (primeiroNome, ultimoNome, idade) => {
 
 console.log(`${imprimirInformacoesPessoas("Noob", "Saibot", 14)}, ele é um gato gordo.`);
 
-//Podemos fazer uma so,a
+//Podemos fazer uma soma
 console.log(`Soma ${10 + 20}`);
