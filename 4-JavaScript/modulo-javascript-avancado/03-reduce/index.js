@@ -11,8 +11,11 @@ let ordens = [
 //     quantidadeDeOrdens += ordens[i]. quantidade
 // }
 
-let quantidadeDeOrdens = ordens.reduce(function (quantidadeDeOrdens, oredem) {
-
+let quantidadeDeOrdens = ordens.reduce(function (somaOrdens, ordem) {
+    return somaOrdens + ordem.quantidade
 }, 0)
+
+
+// let quantidadeDeOrdens = ordens.reduce((somaOrdens, ordem) => somaOrdens + ordem.quantidade, 0)
 
 console.log(quantidadeDeOrdens);
