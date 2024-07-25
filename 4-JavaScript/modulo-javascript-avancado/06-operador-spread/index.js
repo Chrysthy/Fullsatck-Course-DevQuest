@@ -13,10 +13,13 @@ let pessoas3 = ['Joker']
 
 
 //usando o operador spread
-pessoas1 = [...pessoas1, ...pessoas2, ...pessoas3]
+// pessoas1 = [...pessoas1, ...pessoas2, ...pessoas3]
 
-console.log(pessoas1);
+// console.log(pessoas1);
 
 
 
-//CLONANDO
+//CLONAR OBJETO
+let pessoa1 = { nome: 'Chrystine', idade: 32}
+let pessoa2 = { nome: 'Noob', idade: 14 }
+
