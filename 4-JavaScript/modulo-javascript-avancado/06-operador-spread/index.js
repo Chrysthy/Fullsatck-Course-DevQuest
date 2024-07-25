@@ -11,6 +11,12 @@ let pessoas3 = ['Joker']
 
 // pessoas1 = pessoas1.concat(pessoas2).concat(pessoas3)
 
+
+//usando o operador spread
 pessoas1 = [...pessoas1, ...pessoas2, ...pessoas3]
 
 console.log(pessoas1);
+
+
+
+//CLONANDO
