@@ -21,7 +21,6 @@ let pessoas3 = ['Joker']
 
 //CLONAR OBJETO
 let pessoa1 = { nome: 'Chrystine', idade: 32 }
-let pessoa2 = { nome: 'Noob', idade: 14 }
 
 const objetoClonado = { ...pessoa1 }
 
