@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Imagem do Curso" src=".github/logo-descomplica-black.png" width="80%">
+  <img alt="Imagem do Curso" src=".github/devquest.png" width="80%">
 </p>
 
 <br>
