@@ -1,12 +1,3 @@
-# Curso de Programação FullStack - DevQuest 
-
-* Front-end;
-* Back-end;
-* APIs Rest;
-* Banco de dados;
-* Marketing pessoal.
-
-
 <h1 align="center"> Curso de Programação FullStack - DevQuest </h1> 
 
 <p align="center">Curso de Desenvolvimento Web FullStack - Reconhecido pelo <a href="https://www.gov.br/mec/pt-br">Mec</a>.
@@ -42,32 +33,11 @@
 
 ## ✨ Features
 
-1. FrontEnd
-
- * Conceitos HTML;
- * Mídia;
- * Tabelas;
- * Forms;
- * Conceitos CSS;
- * BootStrap;
- * Versionamento de código;
- * GitHub pages;
-
-2. BackEnd
-
-  * Conceitos e Comandos;
-  * Arrays;
-  * If;
-  * Switch;
-  * For;
-  * While;
-  * Strings;
-  * Functions;
-  * Classes;
-  * DOM;
-  * Exception;
-  * Promise;
-  * JSON.
+1. FrontEnd;
+2. BackEnd;
+3. APIs Rest;
+4. Banco de dados;
+5. Marketing pessoal.
 
 ## 💻 Academic Exercises
 
