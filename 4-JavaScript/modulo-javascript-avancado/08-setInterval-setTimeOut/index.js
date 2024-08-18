@@ -14,7 +14,7 @@
 
 // }, 2000);
 
-// console.log('console depois do SetTimeout');
+// console.log('console depois do SetInterval');
 
 
 const idDoIntervalo = setInterval(() => {
