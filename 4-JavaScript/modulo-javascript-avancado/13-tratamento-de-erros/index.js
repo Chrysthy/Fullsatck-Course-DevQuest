@@ -54,7 +54,7 @@ let lavarXicara = (cafeTomado) => {
 };
 
 let chaleiraEstaNoFogao = true;
-let fogaoEstaLigado = false;
+let fogaoEstaLigado = true;
 
 async function iniciarProcessoDeFazerCafe() {
 
@@ -68,12 +68,12 @@ async function iniciarProcessoDeFazerCafe() {
 
         const xicaraLavada = await lavarXicara(cafeTomado);
 
-        if (xicaraLavada) console.log("Processo de fazer café finalizado com sucesso!");
-
     } catch (erro) {
 
         console.log(erro);
 
+    } finally {
+        console.log("Processo de fazer café finalizado");
     }
 }
 
