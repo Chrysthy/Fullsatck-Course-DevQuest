@@ -11,9 +11,9 @@ let ferverAgua = (chaleiraEstaNoFogao, fogaoEstaLigado) => {
 
         } else {
 
-            console.log("é necessário colocar a chaleira com a água e ligar o fogão, senão o seu cafézinho não vai ficar pronto nunca");
+            const mensagemDeErro = "é necessário colocar a chaleira com a água e ligar o fogão, senão o seu cafézinho não vai ficar pronto nunca";
 
-            reject();
+            reject(mensagemDeErro);
 
         };
 
@@ -54,7 +54,7 @@ let lavarXicara = (cafeTomado) => {
 };
 
 let chaleiraEstaNoFogao = true;
-let fogaoEstaLigado = true;
+let fogaoEstaLigado = false;
 
 async function iniciarProcessoDeFazerCafe() {
 
@@ -70,10 +70,9 @@ async function iniciarProcessoDeFazerCafe() {
 
         if (xicaraLavada) console.log("Processo de fazer café finalizado com sucesso!");
 
-    } catch (error) {
+    } catch (erro) {
 
-        console.log(error);
-
+        console.log(erro);
 
     }
 }
