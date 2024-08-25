@@ -72,6 +72,9 @@ async function iniciarProcessoDeFazerCafe() {
 
     } catch (error) {
 
+        console.log(error);
+
+
     }
 }
 
