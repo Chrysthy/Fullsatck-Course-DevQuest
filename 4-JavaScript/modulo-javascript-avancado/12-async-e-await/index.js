@@ -57,7 +57,7 @@ let chaleiraEstaNoFogao = true;
 let fogaoEstaLigado = true;
 
 async function iniciarProcessoDeFazerCafe() {
-    const aguaFervida = ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
+    const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
 
     console.log(aguaFervida);
 
