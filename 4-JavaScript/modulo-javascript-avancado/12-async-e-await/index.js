@@ -57,10 +57,19 @@ let chaleiraEstaNoFogao = true;
 let fogaoEstaLigado = true;
 
 async function iniciarProcessoDeFazerCafe() {
-    const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
 
-    console.log(aguaFervida);
+    const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado);
 
+    const cafePassado = await passarOCafe(aguaFervida);
+
+    const cafeTomado = await tomarCafe(cafePassado);
+
+    const xicaraLavada = await lavarXicara(cafeTomado);
+
+    if (xicaraLavada) console.log("Processo de fazer café finalizado com sucesso!");
 }
 
 iniciarProcessoDeFazerCafe()
+
+//o await só é valido com funções async
+//o await espera a promise estar no resultado resolvido
