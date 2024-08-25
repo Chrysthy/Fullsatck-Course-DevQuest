@@ -56,19 +56,11 @@ let lavarXicara = (cafeTomado) => {
 let chaleiraEstaNoFogao = true;
 let fogaoEstaLigado = true;
 
-ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
-    .then(() => {
-        return passarOCafe();
-    })
+async function iniciarProcessoDeFazerCafe() {
+    const aguaFervida = ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
 
-    .then(() => {
-        return tomarCafe();
-    })
+    console.log(aguaFervida);
 
-    .then(() => {
-        return lavarXicara();
-    })
+}
 
-    .then(() => {
-        console.log("Finalizado ritual do café, bora trabalhar");
-    });
+iniciarProcessoDeFazerCafe()
