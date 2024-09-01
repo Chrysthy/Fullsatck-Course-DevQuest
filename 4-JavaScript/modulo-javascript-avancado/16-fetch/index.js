@@ -17,11 +17,11 @@ async function tirarUmaCarta(deck_id) {
     return await resposta.json()
 }
 
-async function tirarUmaCartaDoBaralho() {
+async function tirarUmaCartaAleatoriaDoBaralho() {
 
     const baralho = await criarBaralhoEmbaralhado()
 
-    const carta = await tirarUmaCarta()
+    const carta = await tirarUmaCarta(baralho.deck_id)
 }
 
-tirarUmaCartaDoBaralho()
+tirarUmaCartaAleatoriaDoBaralho()
