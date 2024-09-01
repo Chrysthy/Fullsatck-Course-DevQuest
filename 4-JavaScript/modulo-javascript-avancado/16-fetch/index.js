@@ -22,6 +22,10 @@ async function tirarUmaCartaAleatoriaDoBaralho() {
     const baralho = await criarBaralhoEmbaralhado()
 
     const carta = await tirarUmaCarta(baralho.deck_id)
+
+    const imagemCarta = carta.cards[0].image
+
+    document.getElementById('carta').src = imagemCarta
 }
 
 tirarUmaCartaAleatoriaDoBaralho()
