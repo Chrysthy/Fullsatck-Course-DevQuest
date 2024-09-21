@@ -37,3 +37,25 @@ const loadEvents = async () => {
     })
 
 }
+
+const loadAll = async () => {
+
+    try {
+
+        const result = Promise.all([
+            loadUsers(),
+            loadRepositories(),
+            loadEvents(),
+        ])
+
+        console.log(result);
+
+
+    } catch (error) {
+
+        console.log(error);
+
+    }
+}
+
+loadAll()
