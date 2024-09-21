@@ -29,10 +29,12 @@ const loadEvents = async () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            resolve([
-                { id: 1, name: 'Event 1' },
-                { id: 2, name: 'Event 2' },
-            ])
+            reject(new Error("Erro ao carregar os eventos!"))
+
+            // resolve([
+            //     { id: 1, name: 'Event 1' },
+            //     { id: 2, name: 'Event 2' },
+            // ])
         }, 2000)
     })
 
@@ -42,13 +44,15 @@ const loadAll = async () => {
 
     try {
 
-        const result = Promise.all([
+        const result = await Promise.allSettled([
             loadUsers(),
             loadRepositories(),
             loadEvents(),
         ])
 
+        // console.log(JSON.stringify(result));
         console.log(result);
+
 
 
     } catch (error) {
