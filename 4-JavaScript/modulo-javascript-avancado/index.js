@@ -8,3 +8,16 @@ const loadUsers = async () => {
         }, 2000)
     })
 }
+
+const loadRepositories = async () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve([
+                { id: 1, name: 'Repository 1' },
+                { id: 2, name: 'Repository 2' },
+            ])
+        }, 2000)
+    })
+}
+
+}
