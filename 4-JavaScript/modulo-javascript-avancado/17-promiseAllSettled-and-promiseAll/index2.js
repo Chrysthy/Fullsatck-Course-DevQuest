@@ -35,3 +35,21 @@ const loadEvents = async (username) => {
     const events = await response.json()
     return events.map((event) => ({ id: event.id, name: event.types }))
 }
+
+const loadAll = async () => {
+
+    try {
+
+        const results = await Promise.all([
+
+            loadUsers(""),
+            loadRepositories(""),
+            loadEvents(""),
+        ])
+
+        console.log(results);
+
+    } catch (error) {
+        console.error(error);
+    }
+}
