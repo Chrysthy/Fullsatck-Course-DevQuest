@@ -24,3 +24,14 @@ const opcoes = {
 
 const dataFormatada = dataAtual.toLocaleDateString('pt-BR', opcoes)
 console.log(dataFormatada);
+
+//Formatando data com API Intel.DateTimeFormat
+const opcoes2 = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+}
+const formatador = new Intl.DateTimeFormat('pt-BR', opcoes2)
+const dataFormatada2 = formatador.format(dataAtual)
+console.log(dataFormatada2);
