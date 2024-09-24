@@ -14,3 +14,13 @@ console.log(umMesAtras);
 const umAnoDepois = new Date(dataAtual)
 umAnoDepois.setFullYear(dataAtual.getFullYear() + 1)
 console.log(umAnoDepois);
+
+//Formantando Data
+const opcoes = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+}
+
+const dataFormatada = dataAtual.toLocaleDateString('pt-BR', opcoes)
+console.log(dataFormatada);
