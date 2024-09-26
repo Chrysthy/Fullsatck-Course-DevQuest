@@ -33,7 +33,7 @@ const loadEvents = async (username) => {
     }
 
     const events = await response.json()
-    return events.map((event) => ({ id: event.id, name: event.types }))
+    return events.map((event) => ({ id: event.id, name: event.type }))
 }
 
 const loadAll = async () => {
@@ -42,9 +42,9 @@ const loadAll = async () => {
 
         const results = await Promise.all([
 
-            loadUsers(""),
-            loadRepositories(""),
-            loadEvents(""),
+            loadUsers("chrysthy"),
+            loadRepositories("chrysthy"),
+            loadEvents("chrysthy"),
         ])
 
         console.log(results);
@@ -53,3 +53,5 @@ const loadAll = async () => {
         console.error(error);
     }
 }
+
+loadAll()
