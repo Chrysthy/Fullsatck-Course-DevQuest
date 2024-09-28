@@ -11,5 +11,8 @@
     "npm"
   ],
   "author": "Chrystine Martins",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
 }
