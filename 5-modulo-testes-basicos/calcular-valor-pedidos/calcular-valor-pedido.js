@@ -8,7 +8,17 @@ const meuPedido = {
 
 }
 
-const calcularValorPedido = pedido =>
-    pedido.itens.reduce((totalPedidos, pedidoAtual) => totalPedidos + pedidoAtual.valor, 0)
+const calcularValorPedido = pedido => {
 
+    const valorProdutos = pedido.itens
+        
+        .filter(item => !item.entrega)
+        .reduce((totalPedidos, pedidoAtual) => totalPedidos + pedidoAtual.valor, 0)
+
+    // pedido.itens.reduce((totalPedidos, pedidoAtual) => totalPedidos + pedidoAtual.valor, 0)
+    
+   
+
+
+}
 console.log(calcularValorPedido(meuPedido));
