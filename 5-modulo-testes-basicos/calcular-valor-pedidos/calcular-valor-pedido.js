@@ -28,4 +28,4 @@ const calcularValorPedido = pedido => {
 
 
 }
-console.log(calcularValorPedido(meuPedido));
+
