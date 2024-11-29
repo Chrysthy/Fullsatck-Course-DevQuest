@@ -9,6 +9,13 @@ const calcularValorPedido = pedido => {
 
     const entrega = pedido.itens.filter(item => item.entrega);
 
+    if (pedido.estado === 'RS') {
+
+        const acrescimoEntrega = entrega[0].valor * 0.2;
+        entrega[0].valor += acrescimoEntrega;
+
+    }
+
     return (valorProdutos > 500) ? valorProdutos : valorProdutos + entrega[0].valor;
 
     // if (valorProdutos > 500) {
