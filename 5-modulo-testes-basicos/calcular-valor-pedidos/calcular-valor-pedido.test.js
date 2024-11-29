@@ -55,3 +55,24 @@ it('deve cobrar valor de frete quando o valor dos produtos for EXATAMENTE 500', 
     expect(resultado).toBe(600);
 
 })
+
+//caso os estados de entrega sejam de RS ou SC, deve-se acrescentar um valor de 20% na entrega
+
+it('deve adicionar um acréscimo de 20% no valor da entrega seja RS', () => {
+
+    const pedidoComEstadado = {
+        estado: 'RS',
+
+        itens: [
+            { nome: 'Sanduíche bem caro', valor: 500 },
+            { nome: 'Entrega', valor: 100, entrega: true }
+        ]
+
+    };
+
+    const resultado = calcularValorPedido(pedidoComEstadado);
+
+    expect(resultado).toBe(620);
+
+
+});
