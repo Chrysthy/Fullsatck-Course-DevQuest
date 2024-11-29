@@ -74,7 +74,6 @@ it('deve adicionar um acréscimo de 20% no valor da entrega seja RS', () => {
 
     expect(resultado).toBe(620);
 
-
 });
 
 
@@ -94,5 +93,22 @@ it('deve adicionar um acréscimo de 20% no valor da entrega seja SC', () => {
 
     expect(resultado).toBe(620);
 
+});
+
+it('não deve adicionar um acréscimo de 20% no valor da entrega seja SP', () => {
+
+    const pedidoComEstadado = {
+        estado: 'SP',
+
+        itens: [
+            { nome: 'Sanduíche bem caro', valor: 500 },
+            { nome: 'Entrega', valor: 100, entrega: true }
+        ]
+
+    };
+
+    const resultado = calcularValorPedido(pedidoComEstadado);
+
+    expect(resultado).toBe(600);
 
 });
