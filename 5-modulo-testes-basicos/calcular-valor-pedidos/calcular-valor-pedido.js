@@ -14,6 +14,7 @@ const calcularValorPedido = pedido => {
     if (pedido.estado === 'RS' || pedido.estado === 'SC') {
 
         const acrescimoEntrega = entrega[0].valor * acrescimoValorEntrega;
+        
         entrega[0].valor += acrescimoEntrega;
 
     }
