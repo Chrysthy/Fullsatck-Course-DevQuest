@@ -5,12 +5,13 @@ it('não deve cobrar valor de frete quando o valor dos produtos for superior a 5
     const meuPedido = {
 
         itens: [
-            { nome: 'Poção de vida', valor: 100 },
-            { nome: 'Espada de prata', valor: 200 },
+            { nome: 'Arco encantado', valor: 2000 },
             { nome: 'Entrega', valor: 40, entrega: true }
         ]
     
     }
    
-    calcularValorPedido()
+    const resultado = calcularValorPedido(meuPedido)
+
+    expect(resultado).toBe(2000)
 })
