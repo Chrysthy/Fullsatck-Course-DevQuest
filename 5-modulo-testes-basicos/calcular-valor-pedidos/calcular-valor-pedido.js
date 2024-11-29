@@ -1,13 +1,3 @@
-const meuPedido = {
-
-    itens: [
-        { nome: 'Poção de vida', valor: 100 },
-        { nome: 'Espada de prata', valor: 200 },
-        { nome: 'Entrega', valor: 40, entrega: true }
-    ]
-
-}
-
 const calcularValorPedido = pedido => {
 
     const valorProdutos = pedido.itens
