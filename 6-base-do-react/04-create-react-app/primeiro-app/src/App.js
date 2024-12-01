@@ -4,7 +4,17 @@ import Button from './components/button/button';
 function App() {
 
   
-  return <Button/>
+  return (
+
+    <>
+      
+     <Button/>
+     <Button/>
+     <Button/>   
+    
+    </>
+  
+  )
 
 }
 
