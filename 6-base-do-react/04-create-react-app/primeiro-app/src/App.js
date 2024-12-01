@@ -13,7 +13,8 @@ function App() {
 
   //Para não deixar uma div englobado os elementos, podemos usar o fragment. Ele não renderiza nada, mas que serve para envolver outros elementos
 
-  // < > </> é a forma de usar o fragment
+  // < > </> é a forma de usar o fragment ou
+  // <React.Fragment> </React.Fragment>
 
   return (
     <div className="App">
