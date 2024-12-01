@@ -32,3 +32,5 @@ export default App;
 
 // < > </> é a forma de usar o fragment ou
 // <React.Fragment> </React.Fragment>
+
+// As letras maiúsculas são importantes para o React entender que é um componente React e não uma tag html
