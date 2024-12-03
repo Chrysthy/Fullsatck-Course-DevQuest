@@ -27,3 +27,7 @@ export default Card;
 //Precisa importar o React para usar o React.Component
 
 //Dentro da classe, criamos uma função render, que é obrigatório em um componente de classe. E dentro da função render, usando o return para retornamos o que queremos que seja renderizado na tela
+
+//Precisa exportar o Card para usar no App.js e importar o Card no App.js
+
+//Novamente, precisa importar o css para usar no Card.js e colocar className no div para usar o css
