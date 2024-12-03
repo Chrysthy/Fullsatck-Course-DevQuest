@@ -40,3 +40,5 @@ export default App;
 // As letras maiúsculas são importantes para o React entender que é um componente React e não uma tag html
 
 //Precisa importar o button para usar no App.js
+
+//Precisa importar o card para usar no App.js
