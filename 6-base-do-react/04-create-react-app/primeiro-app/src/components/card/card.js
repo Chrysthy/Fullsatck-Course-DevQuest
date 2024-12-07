@@ -14,6 +14,21 @@ const Card = (props) => {
     )
 }
 
+//shorthand
+
+// const Card = ({title}) => {
+//     return (
+
+//         <div className='card'>
+
+//             <h3>{title}</h3>
+
+//             <p>Esse é um texto do card</p>
+
+//         </div>
+//     )
+// }
+
 // class Card extends React.Component {
 
 //     render() {
