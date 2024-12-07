@@ -8,7 +8,7 @@ function App() {
   return (
 
     <>
-      <Card title="Título card 1"/>
+      <Card title="Título card 1"/> 
       <Card/>
       <Card/>
 
@@ -42,3 +42,5 @@ export default App;
 //Precisa importar o button para usar no App.js
 
 //Precisa importar o card para usar no App.js
+
+//<Card title="Título card 1"/> passando uma prop para dentro do componente card
