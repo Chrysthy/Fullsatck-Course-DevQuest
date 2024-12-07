@@ -61,3 +61,5 @@ export default Card;
 //Novamente, precisa importar o css para usar no Card.js e colocar className no div para usar o css
 
 //{this.props.title} é necessário colocar entre chaves para o React entender que é um código javascript, Ssenão ele vai entender que é uma string e vai renderizar para todos os cards o mesmo título
+
+//shorthand é uma forma de simplificar o código, passando direto o props para dentro do componente
