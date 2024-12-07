@@ -3,6 +3,7 @@
 <p align="center">Curso de Desenvolvimento Web FullStack - Reconhecido pelo <a href="https://www.gov.br/mec/pt-br">Mec</a>.
 
 <p align="center">  
+  <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-academi-exercises">Academic Exercises</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
