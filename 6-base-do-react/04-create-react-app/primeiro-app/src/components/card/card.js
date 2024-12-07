@@ -7,13 +7,13 @@ class Card extends React.Component {
 
         return (
 
-            <div className='card'>
+        <div className='card'>
 
-                <h3>Título</h3>
+            <h3>{this.props.title}</h3>
 
-                <p>Esse é um texto do card</p>
+            <p>Esse é um texto do card</p>
 
-            </div>
+        </div>
         )
     }
 }
@@ -31,3 +31,5 @@ export default Card;
 //Precisa exportar o Card para usar no App.js e importar o Card no App.js
 
 //Novamente, precisa importar o css para usar no Card.js e colocar className no div para usar o css
+
+//{this.props.title} é necessário colocar entre chaves para o React entender que é um código javascript, Ssenão ele vai entender que é uma string e vai renderizar para todos os cards o mesmo título
