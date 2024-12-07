@@ -17,9 +17,14 @@
 
 <br>
 
+## 📸 Screenshots
+
+<br>
+
 <p align="center">
-  <img alt="Imagem do Curso" src=".github/devquest.png" width="50%">
+  <img alt="Imagem do Projeto" src=".github/devquest.png" width="45%">
 </p>
+
 
 <br>
 
