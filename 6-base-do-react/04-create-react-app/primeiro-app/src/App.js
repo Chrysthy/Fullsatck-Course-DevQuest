@@ -9,8 +9,8 @@ function App() {
 
     <>
       <Card title="Título card 1"/> 
-      <Card/>
-      <Card/>
+      <Card title="Título card 2"/>
+      <Card title="Título card 3"/>
 
      <Button/>
      <Button/>
