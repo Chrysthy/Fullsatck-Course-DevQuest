@@ -8,7 +8,7 @@ function App() {
   return (
 
     <>
-      <Card/>
+      <Card title="Título card 1"/>
       <Card/>
       <Card/>
 
