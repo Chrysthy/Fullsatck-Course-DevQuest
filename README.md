@@ -36,6 +36,7 @@
 - Node;
 - Git e GitHub.
 
+<br>
 
 ## ✨ Features
 
@@ -45,9 +46,13 @@
 4. Banco de dados;
 5. Marketing pessoal.
 
+<br>
+
 ## 💻 Academic Exercises
 
 - This repository was created to practice the exercises proposed by the professors.
+
+  <br>
 
 ## 📜 License
 
