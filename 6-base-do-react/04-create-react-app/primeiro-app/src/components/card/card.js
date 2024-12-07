@@ -20,7 +20,7 @@ class Card extends React.Component {
 
 export default Card;
 
-//Para criar uma classe, usamos a palavra class seguido da palavra extends, que significa extender alguns caracteristicas de uma outra classe para dentro do nosso componente. Nesse caso estamos estendendo as caracteristicas do React.Component
+//Para criar uma classe, usamos a palavra class seguido da palavra extends, que significa extender alguns caracteristicas de uma outra classe para dentro do nosso componente. Nesse caso estamos estendendo as caracteristicas do React.Component, fazendo uma herança.
 
 //Quem está do lado direito está herdando as caracteristicas e do lado esquerdo é quem está passando as heranças
 
