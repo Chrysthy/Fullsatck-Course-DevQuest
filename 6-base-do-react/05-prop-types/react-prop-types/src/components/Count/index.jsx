@@ -26,3 +26,4 @@ Count.propTypes = {
   incrementCount: PropTypes.func.isRequired
 }
 
+export default Count;
