@@ -8,9 +8,9 @@ function App() {
   return (
 
     <>
-      <Card title="Título card 1"/> 
-      <Card title="Título card 2"/>
-      <Card title="Título card 3"/>
+      <Card /> 
+      <Card />
+      <Card />
 
      <Button/>
      <Button/>
