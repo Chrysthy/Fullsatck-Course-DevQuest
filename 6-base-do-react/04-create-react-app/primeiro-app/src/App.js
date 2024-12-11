@@ -4,20 +4,43 @@ import Card from './components/card/card';
 
 function App() {
 
-  
+
   return (
 
     <>
-      <Card /> 
-      <Card />
-      <Card />
 
-     <Button/>
-     <Button/>
-     <Button/>   
-    
+      <Card>
+        <h3>Título 1</h3>
+
+        <p>Texto 1</p>
+
+      </Card>
+
+      <Card>
+        <h3>Título 2</h3>
+
+        <p>Texto 2</p>
+
+      </Card>
+
+
+      <Card>
+        <h3>Título 2</h3>
+
+        <p>Texto 2</p>
+
+      </Card>
+
+      {/* <Card title='Título card 1' /> 
+      <Card title='Título card 2' />
+      <Card title='Título card 3' /> */}
+
+      <Button />
+      <Button />
+      <Button />
+
     </>
-  
+
   )
 
 }
