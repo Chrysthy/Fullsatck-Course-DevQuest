@@ -4,15 +4,27 @@ import './card.css';
 const Card = (props) => {
     return (
 
-        <div className='card'>
+        <div className='card'> 
 
-            <h3>{props.title}</h3>
-
-            <p>Esse é um texto do card</p>
+        {props.children}    
 
         </div>
     )
 }
+
+
+// const Card = (props) => {
+//     return (
+
+//         <div className='card'>
+
+//             <h3>{props.title}</h3>
+
+//             <p>Esse é um texto do card</p>
+
+//         </div>
+//     )
+// }
 
 //shorthand
 
