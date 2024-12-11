@@ -12,6 +12,22 @@ const Card = (props) => {
     )
 }
 
+/*
+ou 
+shorthand
+const Card = (children) => {
+    return (
+
+        <div className='card'> 
+
+        {children}    
+
+        </div>
+    )
+}
+
+
+*/
 
 // const Card = (props) => {
 //     return (
