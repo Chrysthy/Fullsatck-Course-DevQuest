@@ -35,7 +35,7 @@ function App() {
       <Card title='Título card 2' />
       <Card title='Título card 3' /> */}
 
-      <Button />
+      <Button label='Baixar CV' />
       <Button />
       <Button />
 
