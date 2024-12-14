@@ -34,6 +34,7 @@
 - CSS;
 - JavaScript;
 - Node;
+- React;
 - Git e GitHub.
 
 <br>
