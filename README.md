@@ -33,6 +33,7 @@
 - HTML;
 - CSS;
 - JavaScript;
+- Jest,
 - Node;
 - React;
 - Git e GitHub.
