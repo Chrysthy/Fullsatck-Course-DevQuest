@@ -36,7 +36,7 @@ function App() {
       <Card title='Título card 3' /> */}
 
       <Button label='Baixar CV' />
-      <Button />
+      <Button/>
       <Button />
 
     </>
