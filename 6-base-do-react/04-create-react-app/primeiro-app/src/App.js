@@ -35,8 +35,8 @@ function App() {
       <Card title='Título card 2' />
       <Card title='Título card 3' /> */}
 
-      <Button label='Baixar CV' />
-      <Button/>
+      <Button label='Baixar CV'></Button> {/* Passando uma prop para dentro do componente button */}
+      <Button/> 
       <Button />
 
     </>
