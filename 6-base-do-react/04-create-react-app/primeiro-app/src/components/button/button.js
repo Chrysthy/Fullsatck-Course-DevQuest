@@ -8,6 +8,19 @@ class Button extends React.Component {
     }
 }
 
+//shorthand
+
+/*
+import React, { Component } from 'react';
+
+class Button extendsComponent { 
+    render() {
+        return <button className= "btn">{this.props.label}</button>
+    }
+}
+
+*/
+
 
 
 //utilizando com funções
