@@ -1,4 +1,14 @@
+import React from 'react';
 import './button.css';
+
+//utilizando com classes
+class Button extends React.Component { 
+    render() {
+        return <button className= "btn">{this.props.label}</button>
+    }
+}
+
+
 
 //utilizando com funções
 // const Button = (props) => {
