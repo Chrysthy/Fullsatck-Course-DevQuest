@@ -1,12 +1,14 @@
 import './button.css';
 
-const Button = (props) => {
+//utilizando com funções
+// const Button = (props) => {
 
-    return <button className= "btn">{props.label}</button>
-}
+//     return <button className= "btn">{props.label}</button>
+// }
 
 Button.defaultProps = {
-    label: 'Clique aqui'
+    label: 'Clique aqui',
+    label2: 'Acesse a Receita'
 
 }
 
