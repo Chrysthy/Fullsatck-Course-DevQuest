@@ -44,9 +44,10 @@
 
 1. FrontEnd;
 2. BackEnd;
-3. APIs Rest;
-4. Banco de dados;
-5. Marketing pessoal.
+3. Clean Code;
+4. APIs Rest;
+5. Banco de dados;
+6. Marketing pessoal.
 
 <br>
 
