@@ -7,7 +7,7 @@ const Card = (props, color, showCardColor) => {
         <div
             className='card'
             style={{ backgroundColor: color }}
-            onClick={() => showCardColor()}>
+            onClick={() => showCardColor(color)}>
 
             {props.children}
 
