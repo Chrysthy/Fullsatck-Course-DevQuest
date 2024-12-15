@@ -1,10 +1,14 @@
 import React from 'react';
 import './button.css';
 
+const sayHello = () => {
+    alert('Hello');
+}
+
 //utilizando com classes
-class Button extends React.Component { 
+class Button extends React.Component {
     render() {
-        return <button className= "btn">{this.props.label}</button>
+        return <button className="btn" onClick={sayHello}>{this.props.label}</button>
     }
 }
 
