@@ -1,6 +1,10 @@
 //Criando um componente cards que vai ter todos os cards dentro dele.
 import Card from "../card/card";
 const cardsTitle = ['Título 1', 'Título 2', 'Título 3'];
+const showCardColor = () => {
+    console.log('clicou');
+
+}
 
 const Cards = () => {
     return (
@@ -13,7 +17,7 @@ const Cards = () => {
             {
                 cardsTitle.map((cardsTitle, index) => (
 
-                    <Card key={index}>
+                    <Card key={index} showCardColor={showCardColor}>
 
                         <h3>{cardsTitle}</h3>
 
@@ -23,6 +27,14 @@ const Cards = () => {
 
                 ))
             }
+
+            <Card color='blue' showCardColor={showCardColor}>
+
+                <h3>Card com fundo azul</h3>
+
+                <p>Texto 1</p>
+
+            </Card>
 
             {/* <div>
 
