@@ -1,36 +1,32 @@
 import React from 'react';
 import './card.css';
 
-const Card = (props, color, showCardColor) => {
-    return (
-
-        <div
-            className='card'
-            style={{ backgroundColor: color }}
-            onClick={() => showCardColor(color)}>
-
-            {props.children}
-
-        </div>
-    )
-}
-
-/*
-ou 
-shorthand
-const Card = (children) => {
+/*const Card = (props) => {
     return (
 
         <div className='card'> 
 
-        {children}    
+        {props.children}    
 
         </div>
     )
 }
-
-
 */
+
+//ou shorthand
+const Card = ({ children, color = "orange", showCardColor }) => {
+    return (
+        <div
+            className="card"
+            style={{ backgroundColor: color }}
+            onClick={() => showCardColor(color)}
+        >
+            {children}
+        </div>
+    );
+};
+
+
 
 // const Card = (props) => {
 //     return (
