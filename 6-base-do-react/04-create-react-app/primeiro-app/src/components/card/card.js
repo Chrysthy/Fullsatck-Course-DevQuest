@@ -1,12 +1,15 @@
 import React from 'react';
 import './card.css';
 
-const Card = (props) => {
+const Card = (props, color, showCardColor) => {
     return (
 
-        <div className='card'> 
+        <div
+            className='card'
+            style={{ backgroundColor: color }}
+            onClick={() => showCardColor()}>
 
-        {props.children}    
+            {props.children}
 
         </div>
     )
@@ -73,6 +76,11 @@ const Card = (children) => {
 //         )
 //     }
 // }
+
+Card.defaultProps = {
+    color: 'orange'
+}
+
 
 export default Card;
 
