@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/button/button';
-import Card from './components/card/card';
+// import Card from './components/card/card';
+import Cards from './components/cards/cards';
 
 function App() {
 
@@ -9,7 +10,11 @@ function App() {
 
     <>
 
-      <Card>
+      {
+
+        <Cards />
+
+      /* <Card>
         <h3>Título 1</h3>
 
         <p>Texto 1</p>
@@ -29,14 +34,14 @@ function App() {
 
         <p>Texto 2</p>
 
-      </Card>
+      </Card> */}
 
       {/* <Card title='Título card 1' /> 
       <Card title='Título card 2' />
       <Card title='Título card 3' /> */}
 
       <Button label='Baixar CV'></Button> {/* Passando uma prop para dentro do componente button */}
-      <Button/> 
+      <Button />
       <Button />
 
     </>
