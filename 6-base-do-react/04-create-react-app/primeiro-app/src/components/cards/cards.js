@@ -11,11 +11,11 @@ const Cards = () => {
 
 
             {
-                cardsTitle.map(cardsTitle => {
+                cardsTitle.map((cardsTitle, index) => {
 
                     return (
 
-                        <Card>
+                        <Card key={index}>
 
                             <h3>{cardsTitle}</h3>
 
