@@ -1,5 +1,6 @@
 //Criando um componente cards que vai ter todos os cards dentro dele.
 import Card from "../card/card";
+const cardsTitle = ['Título 1', 'Título 2', 'Título 3'];
 
 const Cards = () => {
     return (
@@ -8,7 +9,26 @@ const Cards = () => {
 
             <h2>Meus Cards</h2>
 
-            <div>
+
+            {
+                cardsTitle.map(cardsTitle => {
+
+                    return (
+
+                        <Card>
+
+                            <h3>{cardsTitle}</h3>
+
+                            <p>Texto 1</p>
+
+                        </Card>
+
+                    )
+
+                })
+            }
+
+            {/* <div>
 
                 <Card>
                     <h3>Título 1</h3>
@@ -32,7 +52,7 @@ const Cards = () => {
 
                 </Card>
 
-            </div>
+            </div> */}
 
         </div>
 
