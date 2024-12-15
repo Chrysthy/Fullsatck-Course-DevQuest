@@ -9,23 +9,18 @@ const Cards = () => {
 
             <h2>Meus Cards</h2>
 
-
             {
-                cardsTitle.map((cardsTitle, index) => {
+                cardsTitle.map((cardsTitle, index) => (
 
-                    return (
+                    <Card key={index}>
 
-                        <Card key={index}>
+                        <h3>{cardsTitle}</h3>
 
-                            <h3>{cardsTitle}</h3>
+                        <p>Texto 1</p>
 
-                            <p>Texto 1</p>
+                    </Card>
 
-                        </Card>
-
-                    )
-
-                })
+                ))
             }
 
             {/* <div>
