@@ -1,8 +1,8 @@
 //Criando um componente cards que vai ter todos os cards dentro dele.
 import Card from "../card/card";
 const cardsTitle = ['Título 1', 'Título 2', 'Título 3'];
-const showCardColor = () => {
-    console.log('clicou');
+const showCardColor = (color) => {
+    console.log(color);
 
 }
 
