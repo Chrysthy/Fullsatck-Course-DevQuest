@@ -13,28 +13,31 @@ const Cards = () => {
 
             <h2>Meus Cards</h2>
 
+            <div>
 
-            {
-                cardsTitle.map((cardsTitle, index) => (
+                {
+                    cardsTitle.map((cardsTitle, index) => (
 
-                    <Card key={index} showCardColor={showCardColor}>
+                        <Card key={index} showCardColor={showCardColor}>
 
-                        <h3>{cardsTitle}</h3>
+                            <h3>{cardsTitle}</h3>
 
-                        <p>Texto 1</p>
+                            <p>Texto cards {index+1}</p>
 
-                    </Card>
+                        </Card>
 
-                ))
-            }
+                    ))
+                }
 
-            <Card color='blue' showCardColor={showCardColor}>
+                <Card color="gray" showCardColor={showCardColor}>
 
-                <h3>Card com fundo azul</h3>
+                    <h3>Card com fundo azul</h3>
 
-                <p>Texto 1</p>
+                    <p>Texto 1</p>
 
-            </Card>
+                </Card>
+
+            </div>
 
             {/* <div>
 
