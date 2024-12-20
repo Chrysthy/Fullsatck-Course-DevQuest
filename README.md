@@ -1,6 +1,6 @@
 <h1 align="center"> Curso de Programação FullStack - DevQuest </h1> 
 
-<p align="center">Curso de Desenvolvimento Web FullStack - Reconhecido pelo <a href="https://www.gov.br/mec/pt-br">Mec</a>.
+<p align="center">Curso de Desenvolvimento Web FullStack - Reconhecido pelo <a href="https://www.gov.br/mec/pt-br">Mec</a>.</p>
 
 <p align="center">  
   <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
