@@ -4,14 +4,14 @@ async function createDeck() {
 
     const response = await fetch("https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1");
 
-    const deck = response.json()
+    const deck = await response.json()
 
     return deck.deck_id
 }
 
 async function getCards(deckId) {
 
-    const response = await fetch(`https://deckofcardsapi.com/api/${deckId}/draw/?count=52`);
+    const response = await fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=52`);
 
     return await response.json()
 }
@@ -27,13 +27,13 @@ class DeckOfCards extends Component {
 
     }
 
-    componentDidMount() {
+    async componentDidMount() {
 
         const deckId = await createDeck();
         const cards = await getCards(deckId);
 
         this.setState({
-            cards: cards
+            cards: cards.cards
         })
     }
 
@@ -43,7 +43,23 @@ class DeckOfCards extends Component {
 
             <section>
 
-                <ul></ul>
+                <ul>
+
+                    {this.state.cards.map((card, index) => {
+
+                        return (
+
+                            <li key={index} >
+
+                                <img key={index} src={card.image} alt={card.value} />
+
+                            </li>
+
+                        )
+                    })}
+
+
+                </ul>
 
             </section>
         )
