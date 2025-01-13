@@ -30,10 +30,10 @@ class DeckOfCards extends Component {
     async componentDidMount() {
 
         const deckId = await createDeck();
-        const cards = await getCards(deckId);
+        const data = await getCards(deckId);
 
         this.setState({
-            cards: cards.cards
+            cards: data.cards
         })
     }
 
@@ -51,7 +51,7 @@ class DeckOfCards extends Component {
 
                             <li key={index} >
 
-                                <img key={index} src={card.image} alt={card.value} />
+                                <img src={card.image} alt={card.value} />
 
                             </li>
 
