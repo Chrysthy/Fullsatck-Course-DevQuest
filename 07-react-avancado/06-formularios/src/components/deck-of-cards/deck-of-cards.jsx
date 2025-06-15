@@ -12,12 +12,14 @@ async function createDeck() {
 
 async function getCards(deckId) {
     const response = await fetch(
-        `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=52`
+        `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`
     );
     return await response.json();
 }
 
+
 const CardsList = (props) => {
+
     return (
 
         <ul>
@@ -44,13 +46,12 @@ const CardsList = (props) => {
 CardsList.propTypes = {
     cards: PropTypes.arrayOf(PropTypes.shape({
         image: PropTypes.string.isRequired,
-        value: PropTypes.string.isRequired,
+        value: PropTypes.string,
     })).isRequired
 };
 
 const DeckOfCards = () => {
 
-    //setDeck
     const [deck, setDeck] = useState({
 
         cards: []
@@ -74,11 +75,19 @@ const DeckOfCards = () => {
     }, [])
 
 
+    const addCard = (newCard) => {
+
+        setDeck({
+            cards: [...deck.cards, newCard]
+        })
+    }
+
+
     return (
 
         <section>
 
-            <Form />
+            <Form addCard={addCard} />
 
             {deck.cards.length > 0 ? <CardsList cards={deck.cards} /> : "Nenhuma carta encontrada"}
 
