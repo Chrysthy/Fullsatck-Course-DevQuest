@@ -1,0 +1,25 @@
+* Objetivo:
+Aprender como implementar um sistema de roteamento eficiente em sua página. 
+
+* Rotas:
+As rotas são fundamentais para criar aplicações web complexas e interativas, permitindo a navegação entre diferentes páginas e componentes.
+
+São caminhos específicos dentro do site, que levam até determinadas páginas.
+
+* URL:
+Nas URLs podemos encontrar as slugs, além das páginas mais comuns:
+/contatos, /informacoes, etc.
+
+* Slug:
+É a parte de uma URL que pode ser legível tanto para humanos quanto para mecanismos de busca. É, normalmente, parte da URL de páginas em sistemas que fazem uso de URL amigável. 
+
+O nome slug vem do inglês, significando "projétil", sendo este o codinome interno dado às notícias em redações de jornais para rápida referência às mesmas.
+
+EX.: a-historia-do-gato-preto
+
+* React Router:
+Trabalha com o conceito de SPA: Single Page Application.
+
+Dá a impressão que tem apenas uma página, pois "não existe atualização entre páginas".
+
+Bom, existe mas o carregamento é dinâmico e imperceptível. 
