@@ -23,3 +23,16 @@ Trabalha com o conceito de SPA: Single Page Application.
 Dá a impressão que tem apenas uma página, pois "não existe atualização entre páginas".
 
 Bom, existe mas o carregamento é dinâmico e imperceptível. 
+
+* Export nomeado (com {})
+import { PostsList } from '../components/posts'
+export { Posts }
+
+Sempre que mudar o nome na exportação, somos obrigados a trocar o nome da importação também.
+
+* Criando arquivo de rotas
+! Vai ser o arquivo de configuração de todas as rotas do site
+
+routes.js 
+
+Para usar as rotas, teremos que importar alguns métodos/componentes que vem do react-router-dom. Precisamos importar:
