@@ -64,3 +64,36 @@ Estrutura dos componentes:
 ?element = qual o elemento, a página que eu quero carregar.
 
 
+! Na criação de um arquivo dentro de uma pasta, podemos também utilizar o index.js ao invés do nome que está a pasta
+
+Ex.: criação da pasta Post e o arquivo Post.jsx
+
+Ex.: criação da pasta Post e o arquivo index.jsx e quando for importar, não precisa necessariamente colocar o .jsx pois como é index, o navegador vai abrir esse arquivo sempre/primeiro por padrão.
+
+Exemplo:
+
+import { PostsDetails } from "../components/post"
+
+
+? Para deixar um link clicável, temos o componente Link e o to dentro do link.
+
+Exemplo:
+
+import { Link } from 'react-router-dom'
+
+<Link to={`/post/${post.id}`}>
+                        
+    <img src={post.image} alt="" />
+
+    <h2>{post.title}</h2>
+
+</Link>
+
+
+? E podemos também colocar para voltar para a página principal
+
+Exemplo:
+
+import { Link } from 'react-router-dom'
+
+<Link to='/'>Voltar para os posts</Link>
