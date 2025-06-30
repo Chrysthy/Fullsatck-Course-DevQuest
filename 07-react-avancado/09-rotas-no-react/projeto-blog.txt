@@ -36,3 +36,31 @@ Sempre que mudar o nome na exportação, somos obrigados a trocar o nome da impo
 routes.js 
 
 Para usar as rotas, teremos que importar alguns métodos/componentes que vem do react-router-dom. Precisamos importar:
+
+Nop terminal:
+
+- npm i react-router-dom 
+- Se já tiver no projeto, é só colocar no terminal npm install para instalar todos os pacotes que estão no projeto clonado/forkado
+
+Precisamos import { BrowserRouter, Route, Routes } from "react-router-dom"
+
+Estrutura dos componentes:
+
+<BrowserRouter>
+
+    <Routes>
+
+        <Route exact path='/' element={<Posts />} />
+        <Route exact path='/post/:id' element={<PostsDetails />} />
+
+     </Routes>
+
+</BrowserRouter>
+
+? exact = exato, exatamente essa rota
+
+? path = é o caminho, e a / essa é a primeira rota que vai cair, é a rota padrão que o site vai carregar.
+
+?element = qual o elemento, a página que eu quero carregar.
+
+
