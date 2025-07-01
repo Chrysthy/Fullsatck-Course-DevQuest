@@ -80,3 +80,30 @@ const GlobalStyle = createGlobalStyle`
 `
 
 Nesse caso, não precisa colocar o . + a tag, porque é o estilo global de reset.css. Colocamos somente o * e as propriedades.
+
+
+* Como estamos usando template string, podemos escrever código js. Então, podemos fazer com que esses estilos css sejam totalmente dinâmicos.
+
+Ex.: Digamos que eu queria deixar a section tenha por padrão o background azul mas se ele tiver uma propriedade red, vai trocar a cor para red.
+
+- vamos importar o css do styled-components
+    - import styled, { css } from 'styled-components’
+
+ 
+
+const Section = styled.section`
+    background-color: blue;
+    ${props => props.red && css`
+        background-color: red;
+        `}
+    padding: 50px;
+`
+
+
+? O que significa esse código?
+
+Se tiver a propriedade red, se a expressão for verdadeira e css vai executar a segunda expressão, que é definir que a cor vai mudar para red. 
+
+O `css` é uma tag function do styled-components, usada para escrever **blocos de CSS com interpolação segura**.
+
+Funciona como um “bloco de estilo” que pode ser reutilizado ou incluído condicionalmente.
