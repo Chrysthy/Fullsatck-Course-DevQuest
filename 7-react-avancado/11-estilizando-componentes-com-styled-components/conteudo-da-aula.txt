@@ -41,3 +41,24 @@ button {
   user-select: none;
 }
 
+
+* Vamos rodar no terminal
+
+Vamos rodar no terminal
+
+- npm run dev = para abrir o projeto
+- npm install styled-components = instalar a biblioteca
+- import styled from 'styled-components' = importar dentro do arquivo que irá estilizar
+- vamos criar um componente, então sempre utilizar letra maiúscula
+- eles são métodos, mas não usamos parênteses para estilizar e sim crases. `   `
+- podemos escrever uma string com linha/várias linhas pois estamos usando o template string. Uma string multi linha
+- depois de criar, precisamos trocar a tag section pela Section que criamos, com letras maiúsculas
+
+
+const Section = styled.section`
+    padding: 50px;
+`
+
+const Img = styled.img`
+    width: 100%;
+`
