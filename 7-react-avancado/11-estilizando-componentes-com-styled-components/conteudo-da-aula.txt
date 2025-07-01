@@ -24,3 +24,20 @@ Cria componentes estilizados, usando css mas escrevendo o código dentro do arqu
 | `-ms-`     | Microsoft Edge/IE          |
 | `-o-`      | Opera                      |
 
+* Styled Components usa Stylis para gerar esses prefixos automaticamente
+
+? Exemplo com styled-components:
+
+const Botao = styled.button`
+  user-select: none;
+`;
+
+Mesmo você escrevendo só user-select, o Styled Components vai compilar algo assim no HTML:
+
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
