@@ -1,0 +1,26 @@
+Styled components
+
+O styled components é uma biblioteca popular no ecossistema do React que permite criar estilos de forma mais modular e componentizada.
+
+Cria componentes estilizados, usando css mas escrevendo o código dentro do arquivo js.
+
+? Quais são as vantagens:
+
+- o componente terá seu próprio estilo e só esse estilo será carregado na tela
+- Não precisa carregar o arquivo css inteiro
+- bugs em nomes de classes
+- gera nomes de classes únicos e exclusivos
+- não precisa se preocupar com erro ortográfico, duplicações ou problemas de seletores de sobreposição de classes e de regras do css
+- ficou mais fácil excluir o css que não usa mais
+- podemos deixar o código css mais dinâmicos, porque vamos poder adaptar a rega do css a partir das props do componente ou de um tema global.
+- Podemos usar código js dentro do css
+- manutenção mais fácil, porque ela vai estar dentro do próprio componente
+- styled components também cria prefixos automáticos nas propriedades css. São códigos específicos que escrevemos para algumas propriedades, para que funcionem em todos os navegadores.
+
+| Prefixo    | Navegador                  |
+| ---------- | -------------------------- |
+| `-webkit-` | Google Chrome, Safari, iOS |
+| `-moz-`    | Mozilla Firefox            |
+| `-ms-`     | Microsoft Edge/IE          |
+| `-o-`      | Opera                      |
+
