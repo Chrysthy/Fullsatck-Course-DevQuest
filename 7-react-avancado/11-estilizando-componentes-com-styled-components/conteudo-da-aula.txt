@@ -62,3 +62,21 @@ const Section = styled.section`
 const Img = styled.img`
     width: 100%;
 `
+
+
+? Dá para aplicar estilos de reset também, mas para isso precisamos importar o método createGlobalStyle. 
+
+Isso vai ser aplicado no site todo, então temos que fazer o reset no App.js, que é o pai de todos os elementos.
+
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+`
+
+Nesse caso, não precisa colocar o . + a tag, porque é o estilo global de reset.css. Colocamos somente o * e as propriedades.
