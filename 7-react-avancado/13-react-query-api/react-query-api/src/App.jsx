@@ -1,4 +1,5 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import Main from './components/Main';
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
     <>
 
       <QueryClientProvider client={queryClient} >
+
+        <Main />
 
       </QueryClientProvider>
 
