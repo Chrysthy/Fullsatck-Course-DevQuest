@@ -19,6 +19,14 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
+
+  <div>
+  
+    <h1>GitHub User</h1>
+
+  <div id="user"></div>
+
+  </div>
 `
 
 setupCounter(document.querySelector('#counter'))
