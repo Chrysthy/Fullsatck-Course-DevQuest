@@ -25,7 +25,7 @@ document.querySelector('#app').innerHTML = `
   
     <h1>GitHub User</h1>
 
-  <div id="user"></div>
+    <div id="user"></div>
 
   </div>
 `
@@ -33,4 +33,4 @@ document.querySelector('#app').innerHTML = `
 setupCounter(document.querySelector('#counter'))
 
 
-fetchUserDetails(document.querySelector('#user'),'Chrythy')
+fetchUserDetails(document.querySelector('#user'),'Chrysthy')
