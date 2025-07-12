@@ -1,0 +1,28 @@
+### O que é a Context API do React?
+
+Imagine que você tem uma informação importante que vários componentes do seu site precisam saber. Por exemplo, saber se o usuário está logado ou não.
+
+**O jeito difícil (sem a Context API):**
+
+Pense nos seus componentes como uma família: um componente "Avô", que passa a informação para o "Pai", que passa para o "Filho".
+
+O problema é que, às vezes, o componente "Pai" nem precisa daquela informação, mas ele é obrigado a recebê-la só para poder passá-la para o "Filho". Isso é chamado de **"prop drilling"** (ficar passando a informação de nível em nível). Fica confuso e bagunçado.
+
+**O jeito fácil (com a Context API):**
+
+A Context API cria uma espécie de "Wi-Fi" para os seus dados.
+
+1. **Provider (O Roteador):** Você usa um componente especial chamado `Provider` (Provedor) que "transmite" a informação (por exemplo: `usuarioLogado = true`). Você coloca esse `Provider` em volta de todos os componentes que precisam dessa informação.
+2. **useContext (A Senha do Wi-Fi):** Agora, qualquer componente lá dentro (seja o "Filho", "Neto" ou "Bisneto"), não precisa mais pedir a informação para o seu pai direto. Ele simplesmente usa uma função chamada `useContext` para "conectar no Wi-Fi" e pegar a informação diretamente da fonte.
+
+---
+
+### Resumindo em uma frase:
+
+**A Context API é uma forma de compartilhar informações entre componentes sem ter que passá-las manualmente de pai para filho, tornando o código muito mais limpo e fácil de entender.**
+
+É perfeito para dados que muitos componentes precisam acessar, como:
+
+- Informações do usuário logado.
+- Tema do site (modo claro ou escuro).
+- Idioma selecionado.
