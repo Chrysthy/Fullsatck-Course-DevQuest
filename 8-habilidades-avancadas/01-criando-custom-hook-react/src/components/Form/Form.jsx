@@ -1,18 +1,9 @@
-import { useState } from "react"
+import useFormInput from "../../hooks/useFormInput"
 
 export default function Form() {
 
-    const [firstName, setFirstName] = useState("Chrystine")
-
-    const [lastName, setLastName] = useState("Martins")
-
-    function handleFirstNameChange(event) {
-        setFirstName(event.target.value);
-    }
-
-    function handleLastNameChange(event) {
-        setLastName(event.target.value);
-    }
+    const firstNameProps = useFormInput("Chrystine");
+    const lastNameProps = useFormInput("Martins");
 
     return (
 
@@ -21,20 +12,20 @@ export default function Form() {
             <label htmlFor="">
 
                 First Name:
-                <input type="text" value={firstName} onChange={handleFirstNameChange} />
+                <input {...firstNameProps} />
 
             </label>
 
             <label htmlFor="">
 
                 Last Name:
-                <input type="text" value={lastName} onChange={handleLastNameChange} />
+                <input {...lastNameProps} />
 
             </label>
 
             <p>
 
-                <b>Bem-Vindo(a), {firstName} {lastName}.</b>
+                <b>Bem-Vindo(a), {firstNameProps.value} {lastNameProps.value}.</b>
 
             </p>
 
