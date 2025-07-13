@@ -1,0 +1,13 @@
+* npm create vite@latest theme-toggler-context-api
+* React
+* JavaScript
+
+* Criar uma pasta contexts
+* Dentro dela ThemeContext
+* import { createContext } from 'react'
+
+* Criar pasta components e dentro dela:
+    1. ThemeTogglerButton (faz a troca)
+    2. Button (é o botão somente)
+    3. Card (para criar algo na tela com h1 e p)
+
